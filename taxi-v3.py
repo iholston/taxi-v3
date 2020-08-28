@@ -7,13 +7,12 @@ env.reset()
 train_episodes = 100000
 print("Initializing q_table...")
 
-
 # Hyperparameters
 alpha = 0.1 # learning rate
 gamma = 0.6 # future reward discount
 epsilon = 0.1 # random action rate
 
-# Initialize q_table as 500x6 matrix
+# Initialize q_table as 500x6 matrix, could also us numpy to make it simpler. 
 q_table = [[0 for i in range(env.action_space.n)] for j in range(env.observation_space.n)]
 
 # Train Brain
