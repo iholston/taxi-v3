@@ -6,5 +6,5 @@ Simple reinforcement learning solution to [taxi-v3](https://gym.openai.com/envs/
 
 ## Synopsis
 State Space: 500 states  
-Action Space: south, north, east, west, pickup, dropoff
+Action Space: south, north, east, west, pickup, dropoff  
 Q-table: simple table mapping 500 states to best action for highest cumulative long-term reward. Updated via q-learning.
