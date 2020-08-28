@@ -9,4 +9,4 @@ State Space: 500 states
 Action Space: south, north, east, west, pickup, dropoff  
 Q-table: simple table mapping 500 states to best action for highest cumulative long-term reward. Updated via q-learning.
 
-Run on Python 3.7 on Windows 10 (ANSI escape code is not recognized so env.render doesn't work properly or something like that)
+Run on Python 3.7 on Windows 10 (ANSI escape code is not recognized so env.render [doesn't work properly](https://stackoverflow.com/questions/51431428/openai-gym-not-rendering-colors-correctly-in-console-environments))
