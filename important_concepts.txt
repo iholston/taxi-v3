@@ -14,3 +14,5 @@ Reinforcement Learning will learn a mapping of states to the optimal action to p
 takes actions based off rewards defined in the environment.
 
 The optimal action for each state is the action that has the highest cumulative long-term reward.
+
+The Q-value of a state-action pair is the sum of the instant reward and the discounted future reward (of the resulting state). The way we store the Q-values for each state and action is through a Q-table
