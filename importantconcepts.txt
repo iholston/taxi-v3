@@ -1,11 +1,13 @@
 all from reference 1.
 
-'In a way, Reinforcement Learning is the science of making optimal decisions using experiences. Breaking it down, the process of Reinforcement Learning involves these simple steps:
+In a way, Reinforcement Learning is the science of making optimal decisions using experiences. Breaking it down, the process of Reinforcement Learning involves 
+these simple steps:
 
 Observation of the environment
 Deciding how to act using some strategy
 Acting accordingly
 Receiving a reward or penalty
 Learning from the experiences and refining our strategy
-Iterate until an optimal strategy is found'
+Iterate until an optimal strategy is found
 
+Reinforcement Learning will learn a mapping of states to the optimal action to perform in that state by exploration, i.e. the agent explores the environment and takes actions based off rewards defined in the environment.
