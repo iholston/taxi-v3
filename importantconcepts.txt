@@ -10,4 +10,7 @@ Receiving a reward or penalty
 Learning from the experiences and refining our strategy
 Iterate until an optimal strategy is found
 
-Reinforcement Learning will learn a mapping of states to the optimal action to perform in that state by exploration, i.e. the agent explores the environment and takes actions based off rewards defined in the environment.
+Reinforcement Learning will learn a mapping of states to the optimal action to perform in that state by exploration, i.e. the agent explores the environment and 
+takes actions based off rewards defined in the environment.
+
+The optimal action for each state is the action that has the highest cumulative long-term reward.
