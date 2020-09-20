@@ -15,3 +15,5 @@ gamma = discount factor (0 < gamma < 1), importance of future rewards
 epsilon = rate of divergence from q-table (0 < epsilon < 1)  
 
 Run on Python 3.7 on Windows 10 (ANSI escape code is not recognized so env.render [doesn't work properly](https://stackoverflow.com/questions/51431428/openai-gym-not-rendering-colors-correctly-in-console-environments))
+
+This solution is practically the same solution as frozenlake-v0, the qtable is just bigger.
