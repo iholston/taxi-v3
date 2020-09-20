@@ -41,7 +41,6 @@ class qtable:
         print('Complete.\n')
 
     def play(self):
-        print("Testing trained q-table 100 times...")
         total_steps, total_penalties = 0, 0
         for i in range(100):
             state = self.env.reset()
@@ -60,7 +59,7 @@ class qtable:
                     break
             total_steps += steps
             total_penalties += penalties
-        print("Testing Complete.\n\nResults after 100 episodes:\n---------------------------")
+        print("Results after 100 episodes:\n---------------------------")
         print("Average steps per playthrough: " + str(total_steps/100))
         print("Average penalties per episode: " + str(total_penalties/100))
 
